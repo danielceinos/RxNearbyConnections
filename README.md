@@ -23,4 +23,4 @@ allprojects {
 ```
 
 
-## [License](RxNearbyConnections/LICENSE.md)
+## [License](LICENSE.md)
