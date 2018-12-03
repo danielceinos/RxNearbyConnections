@@ -16,6 +16,10 @@ class RxNearbyConnections {
 
     data class Success(val msg: String = "Success")
 
+    fun stopAll(context: Context){
+        Nearby.getConnectionsClient(context).stopAllEndpoints()
+    }
+
     /**
      *  ADVERTISING
      */
