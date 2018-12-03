@@ -4,6 +4,10 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 28
+    defaultConfig {
+        versionCode 1
+        versionName "0.0.2"
+    }
     buildTypes {
         release {
             minifyEnabled false
